@@ -1,6 +1,6 @@
 tasks:
   - init: |
-      docker run -d -p 8787:8787 -v /workspace:/home/rstudio/workspace -e DISABLE_AUTH=true ghcr.io/lescai-teaching/rstudio-docker:latest
+      docker run -d -p 8787:8787 -v /workspace:/home/rstudio/workspace -e DISABLE_AUTH=true ghcr.io/lescai-teaching/rstudio-docker:5.0.0
 
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
